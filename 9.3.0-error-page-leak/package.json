@@ -1,0 +1,16 @@
+{
+  "name": "9.3.0-error-page-leak",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_OPTIONS='--inspect' next start"
+  },
+  "dependencies": {
+    "next": "9.3.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "rxjs": "^6.5.4"
+  }
+}

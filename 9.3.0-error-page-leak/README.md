@@ -4,11 +4,11 @@ Frequent access to page throwing error slows down server response time and causi
 * Reproduced for version [9.3.0](https://nextjs.org/blog/next-9-3)
 * Not reproduced for version [8.1.0](https://nextjs.org/blog/next-8-1)
 * Spectrum [chat](https://spectrum.chat/next-js/general/error-page-memory-leak~2e7c284a-1d29-4354-866c-ada0b2a9e847)
-* Github [issue]()
+* Github [issue](https://github.com/zeit/next.js/issues/11526)
 
 #### User flow
-1. User accessing the page being rendered on server
-2. Server resolve non-static properties from the API and render the page
+1. User accessing the page rendered on server
+2. Server resolve non-static properties from the API
 3. Some error on the server happening, e.g wrong request, internal server error, ...
 4. Error page being returned to the user
 

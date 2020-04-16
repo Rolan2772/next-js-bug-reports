@@ -6,6 +6,8 @@ Frequent access to page throwing error slows down server response time and causi
 * Spectrum [chat](https://spectrum.chat/next-js/general/error-page-memory-leak~2e7c284a-1d29-4354-866c-ada0b2a9e847)
 * Github [issue](https://github.com/zeit/next.js/issues/11526)
 
+**Update:** fixed in version [9.3.5](https://github.com/zeit/next.js/releases/tag/v9.3.5)
+
 #### User flow
 1. User accessing the page rendered on server
 2. Server resolve non-static properties from the API
